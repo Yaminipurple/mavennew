@@ -28,7 +28,8 @@ pipeline
      {            
         steps            
 	{                
-	   git 'https://github.com/intelliqittrainings/FunctionalTesting.git'              sh 'java -jar /var/lib/jenkins/workspace/declerativepipeline/testing.jar'            
+	   git 'https://github.com/intelliqittrainings/FunctionalTesting.git'              
+           sh 'java -jar /var/lib/jenkins/workspace/declerativepipeline/testing.jar'            
 	}        
      }        
      stage ('ContDelivery')        
